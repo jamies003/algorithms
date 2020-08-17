@@ -7,7 +7,10 @@ function same (arr1, arr2) {
     if (correctIndex === -1) {
       return false;
     }
+
     console.log(arr2);
+    console.log(arr2);
+
     arr2.splice(correctIndex, 1)
   }
   return true;
